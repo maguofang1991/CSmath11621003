@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1318135754 source:/home/cstur4/project/CTR/corpus.cpp
+	"corpus.h"
+	<assert.h>
+	<stdio.h>
+
+1385615900 /home/cstur4/project/CTR/corpus.h
+	<vector>
+	<stdio.h>
+
+1322113582 source:/home/cstur4/project/CTR/ctr.cpp
+	"ctr.h"
+	"opt.h"
+
+1307934054 /home/cstur4/project/CTR/ctr.h
+	"utils.h"
+	"corpus.h"
+	"data.h"
+
+1318134630 /home/cstur4/project/CTR/utils.h
+	<gsl/gsl_vector.h>
+	<gsl/gsl_matrix.h>
+	<gsl/gsl_permutation.h>
+	<gsl/gsl_linalg.h>
+	<gsl/gsl_eigen.h>
+	<gsl/gsl_rng.h>
+	<gsl/gsl_randist.h>
+	<gsl/gsl_multimin.h>
+	<gsl/gsl_math.h>
+	<gsl/gsl_blas.h>
+	<gsl/gsl_sf_psi.h>
+	<math.h>
+	<assert.h>
+	<time.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+	<dirent.h>
+	<memory.h>
+
+1318134526 /home/cstur4/project/CTR/data.h
+	<vector>
+
+1308068632 /home/cstur4/project/CTR/opt.h
+	<gsl/gsl_vector.h>
+
+1307679376 source:/home/cstur4/project/CTR/data.cpp
+	<assert.h>
+	<stdio.h>
+	"data.h"
+
+1318134538 source:/home/cstur4/project/CTR/main.cpp
+	<stdio.h>
+	<string.h>
+	<getopt.h>
+	"ctr.h"
+
+1318134552 source:/home/cstur4/project/CTR/opt.cpp
+	"opt.h"
+	"utils.h"
+	<gsl/gsl_sort_vector.h>
+
+1385618453 source:/home/cstur4/project/CTR/utils.cpp
+	"utils.h"
+
